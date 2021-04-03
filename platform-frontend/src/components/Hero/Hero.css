@@ -1,0 +1,14 @@
+.Hero {
+    height:10vh;
+    width:100%;
+}
+
+.hero-bg-image-container {
+    background-image: url("./assets/hero-7.jpg");
+    height:750px;
+    background-size: cover;
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+}

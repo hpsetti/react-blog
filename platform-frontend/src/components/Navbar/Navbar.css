@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.Navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:17px;
+}
+
+.nav-left {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.logoContainer {
+    font-family:"Open Sans", sans-serif;
+}
+
+.logoContainer span{
+    background-image: url("./assets/typewriter-logo.png");
+    display:inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+}
+
+nav ul.nav-left-links li{
+    display:inline-block;
+    margin-left: 15px;
+}
+
+ul.nav-left-links li a {
+    text-decoration: none;
+    color:#5391dd;
+
+}
+
+ul.nav-left-links li a:visited {
+    color: #5391dd;
+}
+
+.nav-right {
+    margin-right: 15%;
+}
+
+nav ul.nav-right-links li{
+    display:inline-block;
+    margin-right: 15px;
+}
+
+ul.nav-right-links a{
+    color:#5391dd;
+    text-decoration: none;
+}
+
+ul.nav-right-links a:visited{
+    color:#5391dd;
+    text-decoration: none;
+}
+
+ul.nav-right-links button{
+    padding:11px 10px;
+    background-color: #5391dd;
+    border:0;
+    font-size: 14px;
+}
+
+ul.nav-right-links button:hover {
+    transform:scale(0.98)
+}
+
+ul.nav-right-links button a {
+    color:#fff;
+}
+
+ul.nav-right-links button a:visited {
+    color:#fff;
+}
+
+
