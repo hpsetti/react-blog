@@ -1,14 +1,63 @@
 .Hero {
-    height:10vh;
+    height:100vh;
     width:100%;
 }
 
-.hero-bg-image-container {
-    background-image: url("./assets/hero-7.jpg");
-    height:750px;
-    background-size: cover;
-    background-color: #cccccc;
-    background-repeat: no-repeat;
-    background-position: center;
+.hero-container {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:75%;
+    width:100%;
+}
+
+.hero-text {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    max-width: 506px;
+    max-height: 302px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero-text h1 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #3D90E3;
+}
+
+.hero-text h4 {
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 8.5%;
+    color: #7D7D7D;
+}
+
+.hero-text button.adventure-btn {
+    margin-top: 8.5%;
+    width: 231px;
+    height: 48px;
+    background: #FF6484;
+    border: none;
+    color: white;
+    font-size: 24px;
+}
+
+.hero-img {
+    width:50%;
     z-index: -1;
+}
+
+.hero-img img {
+    height: 519px;
+    background-size: cover;
+}
+
+svg {
+    display: inline-block;
+    left:0;
+    position: absolute;
+    top: 90%;
 }
